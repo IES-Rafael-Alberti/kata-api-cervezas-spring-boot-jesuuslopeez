@@ -1,0 +1,13 @@
+/home/yiisus/Documentos/Repos/kata-api-cervezas-spring-boot-jesuuslopeez/src/main/java/com/kata/beerapi/model/Style.java
+/home/yiisus/Documentos/Repos/kata-api-cervezas-spring-boot-jesuuslopeez/src/main/java/com/kata/beerapi/controller/BeerController.java
+/home/yiisus/Documentos/Repos/kata-api-cervezas-spring-boot-jesuuslopeez/src/main/java/com/kata/beerapi/BeerApiApplication.java
+/home/yiisus/Documentos/Repos/kata-api-cervezas-spring-boot-jesuuslopeez/src/main/java/com/kata/beerapi/repository/CategoryRepository.java
+/home/yiisus/Documentos/Repos/kata-api-cervezas-spring-boot-jesuuslopeez/src/main/java/com/kata/beerapi/controller/BreweryController.java
+/home/yiisus/Documentos/Repos/kata-api-cervezas-spring-boot-jesuuslopeez/src/main/java/com/kata/beerapi/controller/CategoryController.java
+/home/yiisus/Documentos/Repos/kata-api-cervezas-spring-boot-jesuuslopeez/src/main/java/com/kata/beerapi/model/Brewery.java
+/home/yiisus/Documentos/Repos/kata-api-cervezas-spring-boot-jesuuslopeez/src/main/java/com/kata/beerapi/repository/BeerRepository.java
+/home/yiisus/Documentos/Repos/kata-api-cervezas-spring-boot-jesuuslopeez/src/main/java/com/kata/beerapi/repository/StyleRepository.java
+/home/yiisus/Documentos/Repos/kata-api-cervezas-spring-boot-jesuuslopeez/src/main/java/com/kata/beerapi/controller/StyleController.java
+/home/yiisus/Documentos/Repos/kata-api-cervezas-spring-boot-jesuuslopeez/src/main/java/com/kata/beerapi/repository/BreweryRepository.java
+/home/yiisus/Documentos/Repos/kata-api-cervezas-spring-boot-jesuuslopeez/src/main/java/com/kata/beerapi/model/Beer.java
+/home/yiisus/Documentos/Repos/kata-api-cervezas-spring-boot-jesuuslopeez/src/main/java/com/kata/beerapi/model/Category.java

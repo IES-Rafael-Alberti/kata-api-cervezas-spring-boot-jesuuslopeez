@@ -1,0 +1,13 @@
+com/kata/beerapi/repository/CategoryRepository.class
+com/kata/beerapi/model/Style.class
+com/kata/beerapi/repository/StyleRepository.class
+com/kata/beerapi/repository/BeerRepository.class
+com/kata/beerapi/controller/CategoryController.class
+com/kata/beerapi/controller/BreweryController.class
+com/kata/beerapi/BeerApiApplication.class
+com/kata/beerapi/model/Beer.class
+com/kata/beerapi/controller/StyleController.class
+com/kata/beerapi/repository/BreweryRepository.class
+com/kata/beerapi/model/Brewery.class
+com/kata/beerapi/model/Category.class
+com/kata/beerapi/controller/BeerController.class
