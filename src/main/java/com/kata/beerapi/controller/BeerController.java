@@ -46,30 +46,6 @@ public class BeerController {
         Optional<Beer> cervezaOpcional = repositorioCervezas.findById(id);
         if (cervezaOpcional.isPresent()) {
             Beer cerveza = cervezaOpcional.get();
-            cerveza.setName(detallesCerveza.getName());
-            cerveza.setBreweryId(detallesCerveza.getBreweryId());
-            cerveza.setCatId(detallesCerveza.getCatId());
-            cerveza.setStyleId(detallesCerveza.getStyleId());
-            cerveza.setAbv(detallesCerveza.getAbv());
-            cerveza.setIbu(detallesCerveza.getIbu());
-            cerveza.setSrm(detallesCerveza.getSrm());
-            cerveza.setUpc(detallesCerveza.getUpc());
-            cerveza.setFilepath(detallesCerveza.getFilepath());
-            cerveza.setDescript(detallesCerveza.getDescript());
-            cerveza.setAddUser(detallesCerveza.getAddUser());
-            cerveza.setLastMod(detallesCerveza.getLastMod());
-            Beer cervezaActualizada = repositorioCervezas.save(cerveza);
-            return ResponseEntity.ok(cervezaActualizada);
-        } else {
-            return ResponseEntity.notFound().build();
-        }
-    }
-
-    @PatchMapping("/beer/{id}")
-    public ResponseEntity<Beer> partialUpdateBeer(@PathVariable Integer id, @RequestBody Beer detallesCerveza) {
-        Optional<Beer> cervezaOpcional = repositorioCervezas.findById(id);
-        if (cervezaOpcional.isPresent()) {
-            Beer cerveza = cervezaOpcional.get();
             if (detallesCerveza.getName() != null) {
                 cerveza.setName(detallesCerveza.getName());
             }
